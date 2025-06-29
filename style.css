@@ -696,7 +696,7 @@ ul {
 
 
 
-   /* || THE 7TH PAGE CALLED ABOUT PAGE IN THE FILE NAME contact.html STARTS HERE ||  */
+   /* || THE 7TH PAGE CALLED CONTACT PAGE IN THE FILE NAME contact.html STARTS HERE ||  */
 
    /* ---------------contact - Page ---------------- */
 
@@ -884,11 +884,11 @@ ul {
 
       .hero-text h1 {
         line-height: 40px;
-        font-size: 30px;
+        font-size: 26px;
       }
 
       .hero-text p {
-        font-size: 14px;
+        font-size: 8px;
         margin-top: 10px;
       }
 
@@ -907,6 +907,13 @@ ul {
         line-height: 32px;
       }
 
+      .col-2 h1 {
+        font-size: 40px;
+      }
+      small {
+        font-size: 12px;
+      }
+
 
       .cart-info p {
         display: none;
@@ -920,6 +927,40 @@ ul {
 
        .about-text p {
         font-size: 12px;
+       }
+
+       /* Responsive || Contact form */
+
+   
+     
+       .contact-sm-container {
+        display: block;
+       }
+       .contact-text {
+        width: 100%;
+        margin-bottom: 10px;
+
+       }
+       .contact-form {
+        width: 100%;
+       }
+       .contact-form form {
+        padding: 10px 10px;
+       }
+       .contact-text-align {
+        padding: 10px 10px;
+       }
+       .contact-text p {
+        font-size: 30px;
+       }
+       .icons .fa  {
+        font-size: 20px;
+       }
+       .icons a {
+        font-size: 16px;
+       }
+       .contact-form a {
+        margin-left: 70px;
        }
 }
 
